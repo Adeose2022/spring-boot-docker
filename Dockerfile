@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM openjdk:8-jdk-alpine
 # #Required for starting application up.
 RUN apk update && apk add /bin/sh
 RUN mkdir -p /opt/app
